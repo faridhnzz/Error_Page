@@ -1,67 +1,166 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/yuimatcha/Error_Page@main/favicon.ico" type="image/x-icon" />
+    <!-- <link rel="dns-prefetch" href="//cdn.jsdelivr.net" /> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/android-icon-192x192.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/apple-icon-180x180.png" />
+    <link rel="manifest" href="https://cdn.statically.io/gh/yuimatcha/Error_Page/main/favicon/manifest.json" />
+    <meta name="msapplication-TileImage" content="https://cdn.statically.io/img/yuimatcha.github.io/f=auto/Error_Page/favicon/ms-icon-144x144.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Opss 404</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="pragma" content="no-cache" />
     <meta http-equiv="content-language" content="en" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yuimatcha/Error_Page@main/assets/css/main.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yuimatcha/Error_Page@main/assets/css/nyess_id.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" />
+    <title>Opss 404</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Montserrat:wght@300;700&display=swap" rel="stylesheet" />
+    <!-- <link type="text/css" rel="stylesheet" href="css/style.css" /> -->
+    <!-- Styl -->
     <style>
-      .love {
-        font-size: 10px;
-        margin-left: 2px;
-        margin-right: 2px;
-        text-transform: capitalize;
+      * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
       }
 
-      .fa-heart {
-        color: #ff0026;
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        /* background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjg4MHB4IiBoZWlnaHQ9IjE0MjRweCIgdmlld0JveD0iMCAwIDI4ODAgMTQyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDxkZWZzPgogICAgICAgIDxyYWRpYWxHcmFkaWVudCBjeD0iNDguNDU0MDQyMiUiIGN5PSIyNy4wMTE5NjQ1JSIgZng9IjQ4LjQ1NDA0MjIlIiBmeT0iMjcuMDExOTY0NSUiIHI9IjcwLjg3MDg1MTQlIiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNDg0NTQwLDAuMjcwMTIwKSxzY2FsZSgwLjQ5NDQ0NCwxKSxyb3RhdGUoOTApLHRyYW5zbGF0ZSgtMC40ODQ1NDAsLTAuMjcwMTIwKSIgaWQ9InJhZGlhbEdyYWRpZW50LTEiPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMDAyNjQ5IiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMwNTFGMzciIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgICAgICAgPHJlY3QgaWQ9InBhdGgtMiIgeD0iMCIgeT0iMCIgd2lkdGg9IjI4ODAiIGhlaWdodD0iMTQyNCI+PC9yZWN0PgogICAgPC9kZWZzPgogICAgPGcgaWQ9IlBhZ2UtMSIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9IkhvbWVwYWdlLUNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAsIC01Mjk1KSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0xNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgNTI5NSkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTM0Ij4KICAgICAgICAgICAgICAgICAgICA8bWFzayBpZD0ibWFzay0zIiBmaWxsPSJ3aGl0ZSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMiI+PC91c2U+CiAgICAgICAgICAgICAgICAgICAgPC9tYXNrPgogICAgICAgICAgICAgICAgICAgIDx1c2UgaWQ9Ik1hc2siIGZpbGw9InVybCgjcmFkaWFsR3JhZGllbnQtMSkiIHhsaW5rOmhyZWY9IiNwYXRoLTIiPjwvdXNlPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4='); */
+        background-image: url("data:image/svg+xml,%3Csvg width='800' height='200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='url(%23prefix__gradient-fill)' d='M0 0h800v200H0z'/%3E%3Cdefs%3E%3ClinearGradient id='prefix__gradient-fill' x1='0' y1='0' x2='800' y2='0' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%235c003f'/%3E%3Cstop offset='.143' stop-color='%2371014c'/%3E%3Cstop offset='.286' stop-color='%2387035a'/%3E%3Cstop offset='.429' stop-color='%239d0567'/%3E%3Cstop offset='.571' stop-color='%23b50774'/%3E%3Cstop offset='.714' stop-color='%23cd0a81'/%3E%3Cstop offset='.857' stop-color='%23e60c8e'/%3E%3Cstop offset='1' stop-color='%23ff0f9b'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        height: 100%;
+        background-color: #051f37;
+        background: linear-gradient(180deg, #5c003f, #71014c, #87035a, #9d0567, #b50774, #cd0a81, #e60c8e, #ff0f9b);
       }
-    </style>
-    <script>
-      if ("connection" in navigator) {
-        if (navigator.connection.saveData === true) {
-          document.documentElement.classList.add("save-data");
+
+      #notfound {
+        position: relative;
+        height: 100vh;
+      }
+
+      #notfound .notfound {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+
+      .notfound {
+        max-width: 520px;
+        width: 100%;
+        text-align: center;
+        line-height: 1.4;
+      }
+
+      .notfound .notfound-404 {
+        height: 190px;
+      }
+
+      .notfound .notfound-404 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 146px;
+        font-weight: 700;
+        margin: 0px;
+        color: white;
+      }
+
+      .notfound .notfound-404 h1 > span {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        /* background-image: url('../img/emoji.png'); */
+        background-size: cover;
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+        z-index: -1;
+      }
+
+      .notfound h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0;
+        text-transform: uppercase;
+        color: white;
+      }
+
+      .notfound p {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 300;
+      }
+
+      .notfound a {
+        font-family: 'Montserrat', sans-serif;
+        display: inline-block;
+        padding: 12px 30px;
+        font-weight: 700;
+        background-color: #f99827;
+        color: #fff;
+        border-radius: 40px;
+        text-decoration: none;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+      }
+
+      .notfound a:hover {
+        opacity: 0.8;
+      }
+
+      @media only screen and (max-width: 767px) {
+        .notfound .notfound-404 {
+          height: 115px;
+        }
+        .notfound .notfound-404 h1 {
+          font-size: 86px;
+        }
+        .notfound .notfound-404 h1 > span {
+          width: 86px;
+          height: 86px;
         }
       }
-    </script>
+    </style>
   </head>
 
-  <body class="bg-img">
-    <div class="jumbroton">
-      <div class="col-md-4 col-md-offset-4 text-center">
-        <fieldset class="fieldset title">
-          <legend align="center" class="legend">
-            <span class="text-center" id="spann">Opss 404</span>
-          </legend>
-        </fieldset>
-        <div class="col-sm-12 text-center">
-          <h4 class="icon-attention-circled text-danger"><b id="h4">PAGE NOT FOUND</b></h4>
-          <p id="p_1">Oops! Looks Like You Got Lost</p>
-          <p><del id="p_2">Please Try Again Later</del></p>
-          <img class="img-fluid img-responsive" src="https://cdn.statically.io/img/raw.githubusercontent.com/f=auto,q=75/yuimatcha/Error_Page/main/assets/img/kuli(2).png" />
+  <body>
+    <div id="notfound">
+      <div class="notfound">
+        <div class="notfound-404">
+          <h1>4<span class="emonight"></span>4</h1>
         </div>
-      </div>
-      <div class="col-md-4 col-md-offset-4 text-center copyright">
-        <fieldset class="fieldset">
-          <legend align="center" class="legend">
-            <span class="icon-copyright text-center copyright"><span id="year"></span> - </span>
-            <span class="love" style="font-size: 10px">Made with <i class="fa fa-heart" aria-hidden="true"></i> By Farid Nizam</span>
-          </legend>
-        </fieldset>
+        <h2>Oops!<br />Page Not Be Found</h2>
+        <p>Sorry but the page you are looking for does not exist, have been removed. name changed or is temporarily unavailable</p>
+        <p><strong id="siteloc"></strong></p>
+        <a class="click" href="#">Back to homepage</a>
       </div>
     </div>
     <script>
-      var d = new Date();
-      var n = d.getFullYear();
-      document.getElementById("year").innerHTML = n;
+      const winloc = window.location;
+      document.getElementById('siteloc').innerHTML = 'Site:<br>' + winloc.hostname + winloc.pathname;
+      document.querySelector('.click').href = '../';
+      document.querySelector('.emonight').style.backgroundImage = "url('../img/emoji.png')";
     </script>
   </body>
 </html>
